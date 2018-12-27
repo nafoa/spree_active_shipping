@@ -4,10 +4,10 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
 
   s.name        = 'spree_active_shipping'
-  s.version     = '3.3.0.beta'
+  s.version     = '1.0.0'
   s.authors     = 'Sean Schofield'
   s.email       = 'sean@spreecommerce.com'
-  s.homepage    = 'http://github.com/spree-contrib/spree_active_shipping'
+  s.homepage    = 'http://github.com/nafoa/spree_active_shipping'
   s.summary     = 'Spree extension for providing shipping methods that wrap the active_shipping plugin.'
   s.description = 'Spree extension for providing shipping methods that wrap the active_shipping plugin.'
   s.required_ruby_version = '>= 2.1.0'
