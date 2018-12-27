@@ -4,12 +4,12 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
 
   s.name        = 'spree_active_shipping'
-  s.version     = '1.0.0'
+  s.version     = '3.6.0'
   s.authors     = 'Sean Schofield'
   s.email       = 'sean@spreecommerce.com'
   s.homepage    = 'http://github.com/nafoa/spree_active_shipping'
-  s.summary     = 'Spree extension for providing shipping methods that wrap the active_shipping plugin.'
-  s.description = 'Spree extension for providing shipping methods that wrap the active_shipping plugin.'
+  s.summary     = 'NAFOA forked Spree extension for providing shipping methods that wrap the active_shipping plugin.'
+  s.description = 'NAFOA forked Spree extension for providing shipping methods that wrap the active_shipping plugin.'
   s.required_ruby_version = '>= 2.1.0'
   s.rubygems_version      = '>= 1.8.23'
 
@@ -31,7 +31,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'rspec-activemodel-mocks'
   s.add_development_dependency 'pg', '~> 0.18'
-  s.add_development_dependency 'mysql2', '~> 0.5.1'
-  s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'appraisal'
 end
